@@ -1143,6 +1143,9 @@
     <None Include="kb_layouts\Extra Features\logitech_g810_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="kb_layouts\Extra Features\logitech_g815_features.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="kb_layouts\Extra Features\masterkeys_mk750_left_features.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -1228,6 +1231,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="kb_layouts\logitech_g810.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="kb_layouts\logitech_g815.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
     <None Include="kb_layouts\logitech_gpro.json">
@@ -2418,6 +2424,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="kb_layouts\Extra Features\images\Logi_G810_logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="kb_layouts\Extra Features\images\Logi_G815_logo.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="kb_layouts\Extra Features\images\Logi_G900_logo.png">
