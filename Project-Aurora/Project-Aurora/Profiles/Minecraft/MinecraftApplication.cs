@@ -13,7 +13,7 @@ namespace Aurora.Profiles.Minecraft {
             Name = "Minecraft",
             ID = "minecraft",
             ProcessNames = new[] { "javaw.exe" }, // Require the process to a Java application
-            ProcessTitles = new[] { @"^Minecraft" }, // Match any window title that starts with Minecraft
+            ProcessTitles = new[] { @"^Minecraft\*? [0-9.]*$" }, // Match any window title that starts with Minecraft
             ProfileType = typeof(MinecraftProfile),
             OverviewControlType = typeof(Control_Minecraft),
             GameStateType = typeof(GSI.GameState_Minecraft),
