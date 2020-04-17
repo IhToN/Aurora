@@ -542,8 +542,8 @@ namespace Aurora.Profiles
 
                 watch.Stop();
                 currentTick += timerInterval + watch.ElapsedMilliseconds;
-                updateTimer?.Change(Math.Max(timerInterval, 0), Timeout.Infinite);
-            }, null, 0, System.Threading.Timeout.Infinite);
+                // updateTimer?.Change(Math.Max(timerInterval, 0), Timeout.Infinite);
+            }, null, 0, 1000);
             GC.KeepAlive(updateTimer);
         }
 
