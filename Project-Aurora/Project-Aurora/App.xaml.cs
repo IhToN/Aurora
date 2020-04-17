@@ -36,7 +36,7 @@ namespace Aurora
         /// <summary>
         /// A boolean indicating if Aurora was started with Debug parameter
         /// </summary>
-        public static bool isDebug = false;
+        public static bool isDebug = true;
 
         private static string _ExecutingDirectory = "";
         private static string _AppDataDirectory = "";

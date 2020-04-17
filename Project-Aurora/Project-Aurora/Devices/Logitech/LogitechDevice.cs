@@ -710,6 +710,7 @@ namespace Aurora.Devices.Logitech
             watch.Stop();
             lastUpdateTime = watch.ElapsedMilliseconds;
 
+            Global.logger.Info("Logitech Rerender");
             return update_result;
         }
 
